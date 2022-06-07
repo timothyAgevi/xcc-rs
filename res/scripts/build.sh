@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cargo build --all --target wasm32-unknown-unkown--release
+cargo build --all --target wasm32-unknown-unknown--release
 cp target/wasm32-unkown-unknown/release/*.wasm ./res/
